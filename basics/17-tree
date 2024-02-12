@@ -1,2 +1,2 @@
 #!/bin/bash
-rmdir –p 
+mkdir --parents welcome/to/school
