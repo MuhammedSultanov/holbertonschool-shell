@@ -1,2 +1,2 @@
 #!/bin/bash
-sort -d | cat /etc/passwd -type -d | uniq 
+sort -u | cat /etc/passwd| uniq 
