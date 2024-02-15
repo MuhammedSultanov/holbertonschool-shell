@@ -1,2 +1,2 @@
 #!/bin/bash
-sort -u | cat /etc/passwd| uniq 
+sort| cat /etc/passwd| cut -d: -f6
